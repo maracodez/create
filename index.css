@@ -4,6 +4,7 @@
    justify-content: center;
    align-items: center;
    margin-top: 10%;
+   font-family: Arial, sans-serif;
 }
 
 .icon_container {
@@ -19,7 +20,6 @@
     display: inline-block;
     font-size: 30px;
     font-weight: 800;
-    font-family: Arial, sans-serif;
     color: white;
 }
 
@@ -37,11 +37,11 @@
 
 h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .paragraph {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 2rem;
     padding: 20px;
     text-align: center;
@@ -50,11 +50,11 @@ h2 {
 
 .esti {
     color: hsl(0, 1%, 22%);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 button {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 600;
     background-color: yellow;
     border: none;
