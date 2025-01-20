@@ -51,6 +51,7 @@ h2 {
 .esti {
     color: hsl(0, 1%, 22%);
     font-size: 1.2rem;
+    text-align: center;
 }
 
 button {
