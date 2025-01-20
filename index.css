@@ -1,0 +1,64 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10%;
+}
+
+.icon_container {
+    background-color: yellow;
+    width: 23%;
+    /* height: 3%; */
+    border-radius: 50%;
+    text-align: center;
+}
+
+.icon {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.icon::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.paragraph {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    padding: 20px;
+    text-align: center;
+    color: hsl(0, 1%, 22%);
+}
+
+.esti {
+    color: hsl(0, 1%, 22%);
+    font-size: 1.3rem;
+}
+
+button {
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 8vh;
+}
